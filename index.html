@@ -18,7 +18,9 @@
 
         <message title="Help me, Weasel!" body="Gotta get outta heer!" extraclass="is-primary"></message>
         <button @click="showModal=true">Show Modal</button>
-        <modal v-if="showModal" @close="showModal = false"></modal>
+        <modal v-if="showModal" @close="showModal = false">
+            It was the best of times. It was the worst of times. 
+        </modal>
     </div>
     <script src="https://unpkg.com/vue@2.2.6"></script>
     <script src="main.js"></script>

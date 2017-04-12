@@ -35,9 +35,7 @@ Vue.component('modal', {
         <div class="modal-background"></div>
         <div class="modal-content">
             <div class="box">
-            
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Aliquam, enim quaerat inventore a quasi? Quia dolor facere numquam ab totam?
+             <slot></slot>
             </div>
         </div>
         <button class="modal-close" @click="$emit('close')"></button>
